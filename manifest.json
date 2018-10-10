@@ -1,0 +1,23 @@
+{
+  "content_scripts": [
+    {
+      "matches": [
+        "chrome://history/"
+      ],
+      "js": [
+        "contentscript.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "description": "Chrome History Check All",
+  "incognito": "split",
+  "manifest_version": 2,
+  "name": "Chrome History Check All Extension",
+  "permissions": [
+    "activeTab"
+  ],
+  "short_name": "chromeHistoryCheckAllExt",
+  "version": "0.0"
+}
