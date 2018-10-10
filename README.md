@@ -6,7 +6,7 @@ Add a button to the chrome history page (chrome://history/), to check all entrie
 
 
 To make it work, you will have to enable a dangerous flag in the chrome://flag page, this one precisely:<br>
-chrome://flags/#extensions-on-chrome-urls
+`chrome://flags/#extensions-on-chrome-urls`
 
 This lets chrome extensions inject some bits of code into every settings page of chrome (including history, bookmarks, extension, ... page of chrome).<br>
 So this can be nasty: <b>use at your own risks</b>, verify what extension you use, and trust only open source ones where the community still lives enough to watch for the changes inside it (you do not want a crypto miner in all possible page of your browser)
