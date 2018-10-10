@@ -29,3 +29,12 @@ After all of this you can finally <b>Install</b> this extenstion
 - Click on the `Load Unpacked Extension` button at the top, and search for the place where you have extracted this extension
 - When you have reached the folder containing the `manifest.json` file, you can open it
 - Voila, you should have the button appear after 2 second or so when you open the history page
+
+### Misc
+
+If you want to know the code behind it, there is no packaging, no framework, no otherworldly langage getting in your way.
+
+All the logic is here: https://github.com/antonin-lebrard/Check-All-Entries-Chrome-History/blob/master/contentscript.js
+
+
+And as you will be using the developper way of loading this extension, no risk to have it auto update with a crypto miner in it, it just works now (not in the best way actually)
