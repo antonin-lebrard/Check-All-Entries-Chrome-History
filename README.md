@@ -13,7 +13,7 @@ So this can be nasty: <b>use at your own risks</b>, verify what extension you us
 
 After that, chrome will tell you at each start that the flag you have enabled is bad for the security of your browser.
 
-But if you want it to shut up a little, and let you surf on the wave of insecurity, you can add the parameter `--test-type` to the command line launching chrome, and it will never appear again!
+But if you want it to be a little bit more understanding, and let you surf on the wave of insecurity, you can add the parameter `--test-type` to the command line launching chrome, and it will never appear again!
 
 (To edit the way chrome is launched, there are so many ways for so many different OSes, that listing even one will be an affront to all user of every other OSes, so I will let you search by yourself for this, just don't lose yourself on the neverending flow of tutorials !)
 
